@@ -1,4 +1,6 @@
-[点我获取更多源码](https://blog.xyrobot.top/blog)💕🤞
+[点我获取零食商城源码](https://x-x.fun/e/BU78c82b41Z69)💕
+
+[点我获取更多源码](http://blog.xyrobot.top/blog)🤞
 
 #### 1.项目介绍
 
