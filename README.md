@@ -1,37 +1,32 @@
-# 基于SSM的零食商城系统
+[点我获取更多源码](https://blog.xyrobot.top/blog)💕🤞
 
-#### 介绍
-基于SSM的零食商城系统
+#### 1.项目介绍
 
-#### 软件架构
-软件架构说明
+- 基于SSM的零食商城系统，前端采用Bootstrap框架。
 
+- 后台采用经典SSM框架。数据库采用MySQL。
 
-#### 安装教程
+- 包括用户前台和管理后台，后台管理又可以分为店员（或客服）和超级管理员，
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+- 会员可以通过商城门户进行查看商品、选购、支付、确认收货。客服只能进行普通操作，比如发货。管理员可以进行后台全部操作。
 
-#### 使用说明
+- 运行环境:IDEA2022+jdk1.8+MySQL5.7+Tomcat8 
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+#### 2.本地部署
 
-#### 参与贡献
+- 下载项目，用IDEA打开项目。
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+- 查看src/config/jdbc.properties，根据自己的环境修改数据库名称，数据库账号密码。
+![输入图片说明](1.png)
+
+- 添加Tomcat Local server，运行Tomcat，Tomcat配置如下，一定要注意路径的配置。
+
+![输入图片说明](2.png)
 
 
-#### 特技
+- 运行门户网站：http://localhost:8080/snack/shop/index  注意：路径需要和我配置的一致哦~
+![输入图片说明](3.png)
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+- 后端管理页面：http://localhost:8080/snack/admin/login/adminLogin 管理员账号： admin/123456   客服账号：客服、123456
+
+![输入图片说明](4.png)
